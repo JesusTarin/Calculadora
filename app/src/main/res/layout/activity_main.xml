@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#000000"
+    android:background="#FBE2B5"
     tools:context=".MainActivity">
 
     <TableLayout
@@ -28,25 +28,25 @@
                 android:id="@+id/button"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:backgroundTint="#D1D0D0"
+                android:backgroundTint="#7676F4"
                 android:text="1"
-                android:textColor="#000000" />
+                android:textColor="#FFFFFF" />
 
             <Button
                 android:id="@+id/button2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:backgroundTint="#D1D0D0"
+                android:backgroundTint="#7676F4"
                 android:text="2"
-                android:textColor="#000000" />
+                android:textColor="#FFFFFF" />
 
             <Button
                 android:id="@+id/button3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:backgroundTint="#D1D0D0"
+                android:backgroundTint="#7676F4"
                 android:text="3"
-                android:textColor="#000000" />
+                android:textColor="#FFFFFF" />
 
         </TableRow>
 
@@ -58,25 +58,25 @@
                 android:id="@+id/button4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:backgroundTint="#D1D0D0"
+                android:backgroundTint="#7676F4"
                 android:text="4"
-                android:textColor="#000000" />
+                android:textColor="#FFFFFF" />
 
             <Button
                 android:id="@+id/button5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:backgroundTint="#D1D0D0"
+                android:backgroundTint="#7676F4"
                 android:text="5"
-                android:textColor="#000000" />
+                android:textColor="#FFFFFF" />
 
             <Button
                 android:id="@+id/button6"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:backgroundTint="#D1D0D0"
+                android:backgroundTint="#7676F4"
                 android:text="6"
-                android:textColor="#000000" />
+                android:textColor="#FFFFFF" />
         </TableRow>
 
         <TableRow
@@ -87,25 +87,25 @@
                 android:id="@+id/button7"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:backgroundTint="#D1D0D0"
+                android:backgroundTint="#7676F4"
                 android:text="7"
-                android:textColor="#000000" />
+                android:textColor="#FFFFFF" />
 
             <Button
                 android:id="@+id/button8"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:backgroundTint="#D1D0D0"
+                android:backgroundTint="#7676F4"
                 android:text="8"
-                android:textColor="#000000" />
+                android:textColor="#FFFFFF" />
 
             <Button
                 android:id="@+id/button9"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:backgroundTint="#D1D0D0"
+                android:backgroundTint="#7676F4"
                 android:text="9"
-                android:textColor="#000000" />
+                android:textColor="#FFFFFF" />
 
         </TableRow>
 
@@ -126,14 +126,14 @@
             android:id="@+id/button11"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:backgroundTint="#D1D0D0"
+            android:backgroundTint="#7676F4"
             android:text="0"
-            android:textColor="#000000" />
+            android:textColor="#FFFFFF" />
     </LinearLayout>
 
     <LinearLayout
         android:id="@+id/linearLayout2"
-        android:layout_width="wrap_content"
+        android:layout_width="55dp"
         android:layout_height="0dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="@+id/linearLayout"
@@ -144,27 +144,38 @@
 
         <Button
             android:id="@+id/button10"
-            android:layout_width="55dp"
+            android:layout_width="match_parent"
             android:layout_height="64dp"
-            android:backgroundTint="#D1D0D0"
+            android:backgroundTint="#7676F4"
             android:text="+"
-            android:textColor="#000000" />
+            android:textColor="#FFFFFF" />
 
         <Button
             android:id="@+id/button12"
             android:layout_width="match_parent"
             android:layout_height="64dp"
-            android:backgroundTint="#D1D0D0"
+            android:backgroundTint="#7676F4"
             android:text="="
-            android:textColor="#000000" />
+            android:textColor="#FFFFFF" />
 
         <Button
             android:id="@+id/button13"
             android:layout_width="match_parent"
             android:layout_height="64dp"
-            android:backgroundTint="#D1D0D0"
+            android:backgroundTint="#7676F4"
             android:text="C"
-            android:textColor="#000000" />
+            android:textColor="#FFFFFF" />
     </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textAlignment="viewEnd"
+        android:textSize="50sp"
+        app:layout_constraintBottom_toTopOf="@+id/tableLayout"
+        app:layout_constraintEnd_toEndOf="@+id/linearLayout2"
+        app:layout_constraintStart_toStartOf="@+id/tableLayout" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
